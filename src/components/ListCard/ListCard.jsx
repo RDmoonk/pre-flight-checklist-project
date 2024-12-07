@@ -1,10 +1,7 @@
-import propTypes from "prop-types";
 import React from "react";
-// is used for...
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
-import uniqid from 'uniqid';
+
 
 // The cn utility function (short for "classnames") is a helper function that combines clsx and tailwind-merge to handle class name concatenation and conflicts in Tailwind CSS
 
@@ -15,6 +12,8 @@ const ListCard = ({item, todos, setTodos}) => {
         setTodos(todos.filter((todo) => todo!== item))
         
     }
+
+    
 
     function handleClick(name){
 

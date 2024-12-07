@@ -7,7 +7,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 //La page qui va accueillir les tasks
 
-const TaskList = () => {
+const TaskList = ({item}) => {
   return (
     <>
       <section className="max-w-4xl mx-auto p-6">
@@ -27,24 +27,10 @@ const TaskList = () => {
             </button>
           </Link>
 
-          {/* </Link> */}
-
-          <div className="sapace-y-4">
-            {/* {task.length === 0 ? (<p className="text-center text-gray-500 py-8">No tasks. Do You have some ideas ?</p>) : (
-                        task.map((task) => (
-                        <ListCard
-                        key={task.id}
-                        task={task}
-                        onToggle={toggleTask}
-                        onDelete={deleteTask}/>
-
-                        ))
-                        )} */}
-          </div>
         </div>
-      </section>
 
-      {/* <ListCard /> */}
+       
+      </section>
     </>
   );
 };

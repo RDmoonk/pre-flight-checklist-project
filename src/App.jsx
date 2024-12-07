@@ -1,12 +1,11 @@
+import Scearch from "./ApiChecklist";
 import "./App.css";
-import RevampDb from "./NewVersions/dashboard/DashBoard";
+import RevampDb from "./components/dashboard/DashBoard";
 
 function App() {
   return (
-    <>  
-    <RevampDb/>
-
-    
+    <>
+      <RevampDb />
     </>
   );
 }
