@@ -7,14 +7,14 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 //La page qui va accueillir les tasks
 
-const TaskList = ({item}) => {
+const TaskList = ({item,  todos, setTodos}) => {
   return (
     <>
       <section className="max-w-4xl mx-auto p-6">
         <div className="flex items-center justify-between mb-8">
           <Link to="/">
             <button className=" bg-pinkishred shadow-md rounded-md p-1 mr-2  px-4 py-2">
-              <FontAwesomeIcon icon={faArrowLeft} />
+              <FontAwesomeIcon icon={faArrowLeft}/>
               Back
             </button>
           </Link>
@@ -28,9 +28,10 @@ const TaskList = ({item}) => {
           </Link>
 
         </div>
+   
 
-       
       </section>
+
     </>
   );
 };

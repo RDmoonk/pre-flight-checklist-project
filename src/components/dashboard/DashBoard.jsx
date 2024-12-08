@@ -32,7 +32,7 @@ const RevampDb = () => {
     return(
         <>
         <section>
-        <h1 className="max-w-4x1 mx-auto p-6 border bg-blue w-auto">Pre-Flight Checklist</h1>
+        <h1 className="max-w-4x1 mx-auto p-6 border bg-blue w-auto text-white">Pre-Flight Checklist</h1>
 
         <div className="space-y-2">
         </div>
